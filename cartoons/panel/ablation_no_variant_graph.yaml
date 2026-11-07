@@ -1,0 +1,10 @@
+extends:
+  - main.yaml
+
+name: ablation_no_variant_graph
+
+panel:
+  use_genotype: false
+
+firing:
+  out_dir: runs/ablation_no_variant_graph

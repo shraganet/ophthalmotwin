@@ -1,0 +1,11 @@
+extends:
+  - main.yaml
+
+name: supplementary_transfer
+
+cohort:
+  seed: 4096
+
+firing:
+  out_dir: runs/supplementary_transfer
+  seed: 4096

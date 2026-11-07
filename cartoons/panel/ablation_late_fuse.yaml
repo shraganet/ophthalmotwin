@@ -1,0 +1,10 @@
+extends:
+  - main.yaml
+
+name: ablation_late_fuse
+
+panel:
+  fusion_mode: concat
+
+firing:
+  out_dir: runs/ablation_late_fuse

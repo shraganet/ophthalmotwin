@@ -1,0 +1,10 @@
+extends:
+  - main.yaml
+
+name: ablation_no_vcep_weight
+
+panel:
+  vcep_weight: 0.5
+
+firing:
+  out_dir: runs/ablation_no_vcep_weight

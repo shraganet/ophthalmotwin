@@ -1,0 +1,13 @@
+cohort:
+  n_patients: 480
+  n_genes: 63
+  n_variants: 320
+  n_inheritance: 3
+  max_visits: 5
+  img_channels: 1
+  img_size: 32
+  latent_dim: 24
+  val_fraction: 0.2
+  cal_fraction: 0.2
+  rare_gene_cutoff: 50
+  seed: 1234

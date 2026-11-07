@@ -1,0 +1,25 @@
+extends:
+  - ../cohort/default.yaml
+  - ../firing/default.yaml
+
+name: main
+
+panel:
+  img_embed_dim: 1024
+  gen_embed_dim: 256
+  twin_dim: 1024
+  node_dim: 64
+  graph_hidden: 256
+  hgt_layers: 3
+  hgt_heads: 4
+  fusion_heads: 8
+  tpe_freqs: 8
+  tpe_width: 256
+  n_genes: 63
+  n_quantiles: 3
+  dropout: 0.1
+  vcep_weight: 1.0
+  vcep_only_weight: 0.5
+  use_longitudinal: true
+  use_genotype: true
+  fusion_mode: cross

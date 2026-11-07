@@ -1,0 +1,20 @@
+firing:
+  lr: 1.0e-4
+  epochs: 5
+  batch_size: 8
+  weight_decay: 1.0e-4
+  warmup_steps: 50
+  max_steps: 0
+  amp: false
+  grad_clip: 1.0
+  lambda_prog: 0.5
+  lambda_early: 0.3
+  lambda_reg: 1.0e-4
+  alpha: 0.10
+  raps_lambda: 0.05
+  raps_kreg: 5
+  quantile_levels: [0.1, 0.5, 0.9]
+  device: auto
+  out_dir: runs/main
+  log_every: 10
+  seed: 1234

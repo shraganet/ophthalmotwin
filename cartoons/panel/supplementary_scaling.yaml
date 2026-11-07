@@ -1,0 +1,10 @@
+extends:
+  - main.yaml
+
+name: supplementary_scaling
+
+cohort:
+  n_patients: 120
+
+firing:
+  out_dir: runs/supplementary_scaling
